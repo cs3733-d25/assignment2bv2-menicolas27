@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import List1 from "./list1";
 import Table1 from "./table1";
@@ -17,5 +19,6 @@ function Hobby1(){
     </section>
 )
 }
+
 
 export default Hobby1;
