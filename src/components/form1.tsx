@@ -1,7 +1,6 @@
-import React from "react"
+import { FC } from 'react';
 
-function Form1(){
-    return (
+const Form1: FC = ()=>(
         <form>
             <label htmlFor="fullname">Enter your Full Name:</label>
             <input type="text" id="fullname"/>
@@ -21,8 +20,8 @@ function Form1(){
             <br/>
             <br/>
             <label htmlFor="comments">Comments:</label>
-            <textarea id="comments" name="comments" row="4" cols="40"></textarea>
-            <br/>
+                <textarea id="comments" name="comments" rows={4} cols={40}></textarea>
+                <br/>
             <br/>
             <label htmlFor="language">Preferred language:</label>
             <select id="language" name="language">
@@ -34,7 +33,5 @@ function Form1(){
             <br/>
             <button type="submit">Submit</button>
         </form>
-    );
-}
-
+    )
 export default Form1;

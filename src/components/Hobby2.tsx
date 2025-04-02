@@ -3,11 +3,9 @@ import List2 from './List2';
 import Table2 from './Table2';
 
 const Hobby2: FC = () => (
+    <section>
     <div>
         <h1>Michael Nicolas: Electronic Repair</h1>
-    </div>
-    <div>
-
     </div>
     <div>
         <p>My name is Michael Nicolas. I am a Sophomore at WPI studying Robotics Engineering. I am from Woonsocket, Rhode Island, and I went to high
@@ -30,7 +28,7 @@ const Hobby2: FC = () => (
         For reference, for each category, here is the amount of each type I have worked on, and how long a single repair would normally take:
         <Table2 />
     </div>
-
+    </section>
 
 );
 

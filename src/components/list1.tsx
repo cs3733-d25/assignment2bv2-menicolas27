@@ -1,8 +1,8 @@
-import React from "react";
+import { FC } from 'react';
 
 
-function List1(){
- return (
+const List1: FC =() => (
+
      <ol>
          <li className="highlight">Basketball</li>
          <li>Video Game</li>
@@ -11,6 +11,6 @@ function List1(){
          <li>Hanging Out</li>
      </ol>
  );
-}
+
 
 export default List1;

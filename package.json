@@ -1,18 +1,39 @@
 {
   "name": "assignment2bv2-menicolas27",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "typescript": "~5.7.2",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/JNHhdQGs) # Assignment 2B - React Web Pages *DUE: Tuesday, April 2 by 11:59pm, but we will accept the assignment until April 3 at 11:59pm without penalty, if you need the extra day.",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.25.2",
+    "nanoid": "^3.3.11",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "rollup": "^4.38.0",
+    "source-map-js": "^1.2.1",
+    "typescript": "^5.7.3",
     "vite": "^6.2.4"
   },
-  "dependencies": {
-    "react": "^19.1.0"
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs3733-d25/assignment2bv2-menicolas27.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cs3733-d25/assignment2bv2-menicolas27/issues"
+  },
+  "homepage": "https://github.com/cs3733-d25/assignment2bv2-menicolas27#readme",
+  "devDependencies": {
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.1.1",
+    "i": "^0.3.7"
   }
 }

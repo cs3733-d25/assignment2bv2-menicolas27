@@ -7,7 +7,7 @@ import Hobby2 from './components/Hobby2.tsx';
 const App: FC = () => (
     <div>
         <Title />
-        <Intro />
+        <Intro name1="Zhongyi Tong" name2="Michael Nicolas" />
         <Hobby1 />
         <Hobby2 />
     </div>

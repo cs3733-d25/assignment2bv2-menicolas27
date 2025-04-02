@@ -1,7 +1,6 @@
-import React from "react"
+import { FC } from 'react';
 
-function Table1(){
-    return (
+const Table1 : FC= ()=>(
         <table className="collapse">
             <caption>My favorite Music</caption>
             <tr>
@@ -30,7 +29,7 @@ function Table1(){
                 <td>9/10</td>
             </tr>
         </table>
-    );
-}
+    )
+
 
 export default Table1;
