@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import './list2.css';
 
 const list2: FC = () => (
     <ul>

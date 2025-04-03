@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
 const table2: FC = () => (
-    <table>
+    <table className="expand">
         <caption>Total Repairs</caption>
         <tr>
             <th>Device Type</th>
