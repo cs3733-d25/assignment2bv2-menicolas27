@@ -1,9 +1,18 @@
-import { FC } from 'react';
+import React from 'react';
 
-const Title: FC = () => (
-    <h1 className = "col text-center">
-        CS3733-D25 Team 39: Video Games & Electronic Repair
-    </h1>
-);
+interface IntroProps  {
+    name1: string;
+    name2: string;
+};
+const Intro: React.FC<IntroProps> = ({ name1, name2 }) => (
+    <section>
+        <p>
+            Hello! This page was created by <strong>{name1}</strong> and{" "}
+<strong>{name2}</strong>. We’re excited to showcase our hobbies!
+Micheal is currently a sophomore student in RBE major, Zhongyi is currently a sophomore in CS major,
+    we both like listening to music.
+</p>
+</section>
+)
 
-export default Title;
+export default Intro;
