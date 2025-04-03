@@ -1,12 +1,14 @@
 import { FC } from 'react';
-import List2 from './List2';
-import Table2 from './Table2';
+import List2 from './list2.tsx';
+import Table2 from './table2.tsx';
+import Form2 from './form2.tsx';
 
 const Hobby2: FC = () => (
     <section>
     <div>
         <h1>Michael Nicolas: Electronic Repair</h1>
     </div>
+        <img src = "/public/hobby2.jpg" alt="Repair" style={{ maxWidth: "200px" }}></img>
     <div>
         <p>My name is Michael Nicolas. I am a Sophomore at WPI studying Robotics Engineering. I am from Woonsocket, Rhode Island, and I went to high
             school in Providence, Rhode Island. I have numerous hobbies, including but not limited to playing video games, building model kits,
@@ -28,6 +30,10 @@ const Hobby2: FC = () => (
         For reference, for each category, here is the amount of each type I have worked on, and how long a single repair would normally take:
         <Table2 />
     </div>
+        <div>
+            <h2>Your Repair Form:</h2>
+            <Form2 />
+        </div>
     </section>
 
 );
