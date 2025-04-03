@@ -59,7 +59,6 @@ const table2: FC = () => (
             <td>4</td>
         </tr>
         </tbody>
-
     </table>
 );
 
