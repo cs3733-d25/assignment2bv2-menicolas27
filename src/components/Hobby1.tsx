@@ -13,7 +13,9 @@ const Hobby1 :FC = () =>(
         </p>
 
         <List1 />
+        <br />
         <Table1 />
+        <br />
         <Form1 />
     </section>
 
