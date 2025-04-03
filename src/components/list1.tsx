@@ -1,5 +1,5 @@
 import { FC } from 'react';
-
+import './list1.css';
 
 const List1: FC =() => (
 
